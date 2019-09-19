@@ -1,0 +1,42 @@
+1568322123341	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\vdsingh\\AppData\\Local\\Temp\\rust_mozprofile.2YHZpa61LzD4"
+1568322123658	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1568322124195	Marionette	INFO	Enabled via --marionette
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400FC,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/extension-process-script.js, line 339: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1568322125699	Marionette	INFO	Listening on port 58336
+[Child 23804] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.[Child 11760]c c, line 346
+WARNING[: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to stat
+1568322233078	geckodriver	INFO	geckodriver 0.20.1
+1568322233091	geckodriver	INFO	Listening on 127.0.0.1:58395
+1568322236088	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\vdsingh\\AppData\\Local\\Temp\\rust_mozprofile.fP9lVdUfiwti"
+1568322236373	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1568322236866	Marionette	INFO	Enabled via --marionette
+[Child 12976] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11568322238117	Marionette	INFO	Listening on port 58405
+1568322239210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568322239242	Marionette	DEBUG	Register listener.js for window 4294967297
+1568322239295	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1568322240358	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1568322240359	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1568322242076	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://opensource-demo.orangehrmlive.com/"
+1568322242529	Marionette	DEBUG	Received DOM event "pageshow" for "https://opensource-demo.orangehrmlive.com/"
+1568322242703	Marionette	DEBUG	Received DOM event "beforeunload" for "https://opensource-demo.orangehrmlive.com/"
+1568322243655	Marionette	DEBUG	Received DOM event "pagehide" for "https://opensource-demo.orangehrmlive.com/"
+1568322243655	Marionette	DEBUG	Received DOM event "unload" for "https://opensource-demo.orangehrmlive.com/"
+1568322243985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+1568322244727	Marionette	DEBUG	Received DOM event "pageshow" for "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+1568322244994	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1568322255174	Marionette	INFO	New connections will no longer be accepted
+[Child 22584] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2258[Child 20936] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 209*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 20776] WAR
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
